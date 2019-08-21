@@ -1,1 +1,1 @@
-python3 dailycoding39.py --size=$1 --iters=$2 --inits="$3"
+python3 dailycoding039.py --size=$1 --iters=$2 --inits="$3"
