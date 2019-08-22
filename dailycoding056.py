@@ -86,7 +86,7 @@ def main():
     ]
 
     if all([
-        [g.k_colorable(k) == ans for k, ans in zip(*test)]
+        all([g.k_colorable(k) == ans for k, ans in zip(*test)])
         for test, g in zip(test_cases, [g1, g2, g3])]):
         print("Passed")
     else:
